@@ -4,7 +4,7 @@ var arrLang = {
 		'course1': 'Course 1 (English)',
 		'course2': 'Course 2 (English)',
 		'course3': 'Course 3 (Spanish)',
-		'course': 'Course',
+		'course': 'Courses',
 		'lecturer1': 'Lecturer: Joost-Pieter Katoen',
 		'lecturer2': 'Lecturer: Benjamin Kaminski',
 		'lecturer3': 'Lecturers: Raúl Fervari and Carlos Areces',
