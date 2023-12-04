@@ -55,8 +55,9 @@ var arrLang = {
 		'scholarships5': '',
 		'scholarships6': 'To make your scholarship request, you must fill the following',
 		'scholarships7': 'In addition to completing the form, they must send a certificate of academic performance to',
-		'scholarships': 'Enrollment Scholarships'
-
+		'scholarships': 'Enrollment Scholarships',
+		'scholarshipsAlojamiento' : 'Accommodation scholarships',
+		'scholarships8': 'In addition, the Computer Science Summer School offers accommodation scholarships. To apply for a scholarship, you must complete the following'
 	},
 	'Español': {
 		'course1': 'Curso 1 (Inglés)',
@@ -115,7 +116,9 @@ var arrLang = {
 		'scholarships4': 'Estar Inscripto en una carrera de grado o de posgrado en una Universidades públicas Argentina. En caso de estar inscripto en una carrera de grado, haber rendido al menos una materia.',
 		'scholarships6': 'Para realizar su pedido de beca, debe completar el siguiente',
 		'scholarships7': 'Además de completar el formulario deberán enviar un certificado de rendimiento académico a riobecas@dc.exa.unrc.edu.ar',
-		'scholarships': 'Becas de Inscripción'
+		'scholarships': 'Becas de Inscripción',
+		'scholarshipsAlojamiento' : 'Becas de Alojamiento',
+		'scholarships8': 'Además la Escuela de Verano de Ciencias Informáticas ofrece becas de alojamiento. Para realizar el pedido de beca, debe completar el siguiente'
 	}
 };
 // Process translation
