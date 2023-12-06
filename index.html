@@ -125,12 +125,12 @@
     <ul class="courses">
       <li>
         <h3 class="lang" key="course1"> Curso 1 </h3>
-        <h3> <a href="#" onclick="toggleCourse('curso1'); return false;">Verification of Fault Trees</a></h3>
-        <h4 class="lang" key="lecturer1"> A cargo de: Joost-Pieter Katoen</h4>
+        <h3> <a href="#" onclick="toggleCourse('curso1'); return false;">Lógicas Modales Dinámicas</a></h3>
+        <h4 class="lang" key="lecturer1"> A cargo de Raúl Fervari y Carlos Areces</h4>
        			<h5> <i class="fa fa-map-marker"></i> TBD </h5>
         <div id="curso1" class="description">
           <strong>
-          Fault trees are a key element in reliability engineering. In this lecture, we will present the basics of static fault trees and of its generalization, called dynamic fault trees. We will present their formal semantics using stochastic Petri nets, and will present some techniques for generating succinct (and partial) state spaces. To conclude, we will present the foundations of model-checking techniques for the reliability analysis of dynamic fault trees, and will present a state-of-the-art analysis tool that supports all these techniques.
+          Este curso introduce una familia de lógicas que nos permiten razonar acerca de situaciones donde el contexto evoluciona a partir de la ejecución de determinadas acciones. Ejemplos de ello pueden ser el conocimiento adquirido por medio de una acción que nos brinda nueva información, o la distribución de memoria entre distintos procesos computacionales que comienzan su ejecución de manera concurrente. Llamaremos a esta familia Lógicas Dinámicas. En particular, nos centraremos en estudiar lógicas dinámicas desde el punto de vista de la Lógica Modal como enfoque unificador. De esta manera, no sólo introduciremos diferentes lenguajes para razonar sobre entornos ‘dinámicos’, sino que también estudiaremos las herramientas subyacentes que pueden ser utilizadas sobre ellas y sus particularidades, las similitudes y diferencias entre los distintos lenguajes dinámicos, y sus posibles aplicaciones.
 
           </strong>
           <br>
@@ -152,15 +152,13 @@
       </li>
       <li>
               <h3 class="lang" key="course2"> Curso 2</h3>
-              <h3> <a href="#" onclick="toggleCourse('curso2'); return false;"> Quantitative Deductive Verification</a></h3>
-              <h4 class="lang" key="lecturer2"> A cargo de Benjamin Kaminski </h4>
+              <h3> <a href="#" onclick="toggleCourse('curso2'); return false;"> Verification of Fault Trees</a></h3>
+              <h4 class="lang" key="lecturer2"> A cargo de: Joost-Pieter Katoen </h4>
        			<h5> <i class="fa fa-map-marker"></i> TBD </h5>
 
               <div id="curso2" class="description">
                 <strong>
-Will my program terminate? If initially x == 2, will x be even after program termination? These are qualitative problems in program verification and answers to these questions are either yes or no, true or false. To make our life more difficult (but also much more interesting), we will study how to measure quantities instead of truth: How long will it take until my program terminates? Given the input value, what output value will my program produce? Given an observed output value, what was the input value? What can I still say if my program had access to randomness? 
-
-In this course, we will investigate how to reason about such quantitative properties of software, i.e. typically infinite-state systems described symbolically by some programming language. To that end, we will first study qualitative deductive reasoning via Dijkstra's weakest [liberal] preconditions and strongest postconditions. We will then gradually lift qualitative to quantitative weakest pre / strongest post transformers. In particular, we will learn how to interpret weakest pre and strongest post meaningfully in a quantitative setting. We will also learn about a concept that Dijkstra missed to investigate (or did not care to investigate): strongest liberal post[conditions]. Finally, we will have a look at weakest pre transformers for probabilistic programs. We will learn how to use these transformers to reason about reachability probabilities and expected values. We will also learn how to adapt the probabilistic weakest pre calculus in order to reason about expected runtimes of probabilistic programs.
+Fault trees are a key element in reliability engineering. In this lecture, we will present the basics of static fault trees and of its generalization, called dynamic fault trees. We will present their formal semantics using stochastic Petri nets, and will present some techniques for generating succinct (and partial) state spaces. To conclude, we will present the foundations of model-checking techniques for the reliability analysis of dynamic fault trees, and will present a state-of-the-art analysis tool that supports all these techniques.
              </strong>
                 <br>
                 <br>
@@ -181,13 +179,15 @@ In this course, we will investigate how to reason about such quantitative proper
             </li>
              <li>
                           <h3 class="lang" key="course3"> Curso 3 </h3>
-                          <h3> <a href="#" onclick="toggleCourse('curso3'); return false;"> Lógicas Modales Dinámicas </a></h3>
-                          <h4 class="lang" key="lecturer3"> A cargo de Raúl Fervari y Carlos Areces </h4>                 <h5 class="fa_icon map-marker"> TBD </h5>
+                          <h3> <a href="#" onclick="toggleCourse('curso3'); return false;"> Quantitative Deductive Verification </a></h3>
+                          <h4 class="lang" key="lecturer3"> A cargo de Benjamin Kaminski </h4>                 <h5 class="fa_icon map-marker"> TBD </h5>
        			<h5> <i class="fa fa-map-marker"></i> TBD </h5>
 
                           <div id="curso3" class="description">
                             <strong>
-            Este curso introduce una familia de lógicas que nos permiten razonar acerca de situaciones donde el contexto evoluciona a partir de la ejecución de determinadas acciones. Ejemplos de ello pueden ser el conocimiento adquirido por medio de una acción que nos brinda nueva información, o la distribución de memoria entre distintos procesos computacionales que comienzan su ejecución de manera concurrente. Llamaremos a esta familia Lógicas Dinámicas. En particular, nos centraremos en estudiar lógicas dinámicas desde el punto de vista de la Lógica Modal como enfoque unificador. De esta manera, no sólo introduciremos diferentes lenguajes para razonar sobre entornos ‘dinámicos’, sino que también estudiaremos las herramientas subyacentes que pueden ser utilizadas sobre ellas y sus particularidades, las similitudes y diferencias entre los distintos lenguajes dinámicos, y sus posibles aplicaciones.
+            Will my program terminate? If initially x == 2, will x be even after program termination? These are qualitative problems in program verification and answers to these questions are either yes or no, true or false. To make our life more difficult (but also much more interesting), we will study how to measure quantities instead of truth: How long will it take until my program terminates? Given the input value, what output value will my program produce? Given an observed output value, what was the input value? What can I still say if my program had access to randomness? 
+
+In this course, we will investigate how to reason about such quantitative properties of software, i.e. typically infinite-state systems described symbolically by some programming language. To that end, we will first study qualitative deductive reasoning via Dijkstra's weakest [liberal] preconditions and strongest postconditions. We will then gradually lift qualitative to quantitative weakest pre / strongest post transformers. In particular, we will learn how to interpret weakest pre and strongest post meaningfully in a quantitative setting. We will also learn about a concept that Dijkstra missed to investigate (or did not care to investigate): strongest liberal post[conditions]. Finally, we will have a look at weakest pre transformers for probabilistic programs. We will learn how to use these transformers to reason about reachability probabilities and expected values. We will also learn how to adapt the probabilistic weakest pre calculus in order to reason about expected runtimes of probabilistic programs.
                             </strong>
                             <br>
                             <br>

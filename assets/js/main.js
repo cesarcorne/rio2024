@@ -1,13 +1,13 @@
 "use strict";
 var arrLang = {
 	'English': {
-		'course1': 'Course 1 (English)',
+		'course1': 'Course 1 (Spanish)',
 		'course2': 'Course 2 (English)',
-		'course3': 'Course 3 (Spanish)',
+		'course3': 'Course 3 (English)',
 		'course': 'Courses',
-		'lecturer1': 'Lecturer: Joost-Pieter Katoen',
-		'lecturer2': 'Lecturer: Benjamin Kaminski',
-		'lecturer3': 'Lecturers: Raúl Fervari and Carlos Areces',
+		'lecturer1': 'Lecturers: Raúl Fervari and Carlos Areces',
+		'lecturer2': 'Lecturer: Joost-Pieter Katoen',
+		'lecturer3': 'Lecturer: Benjamin Kaminski',
 		'about': 'About RIO',
 		'aboutDesc': 'The Rio Summer School of Informatics is  organized yearly by the Computer Science Department of the National University of Rio Cuarto. Traditionally, the school is a week-long event taking place during the Argentinean summer, in February. The original goal of the school was to provide the students of the computer science careers of the National University of Rio Cuarto with an ample and up-to-date  view of the discipline, as well as to promote  the contact and interaction between students, professors and researchers of computer science. To that end, the school was designed to provide short and intensive courses taught by prominent researchers and professors in computer science; the social events during the school provide an excellent opportunity to connect students and professors from different institutions. Since the first edition of the school in 1994, it has become a traditional event for the computer science community in Argentina, and the region. More than 3000 students have assisted the school, many of them are now distinguished researchers, professors and professionals of informatics. The success of previous editions of the school made it possible to establish relationships between local research groups and international researchers; thus, improving the collaboration between Argentinean and international computer science  institutions.' +
 			'        The summer school has had as professors some of the most distinguished researchers in different areas of computer science.',
@@ -60,13 +60,13 @@ var arrLang = {
 		'scholarships8': 'In addition, the Computer Science Summer School offers accommodation scholarships. To apply for a scholarship, you must complete the following'
 	},
 	'Español': {
-		'course1': 'Curso 1 (Inglés)',
+		'course1': 'Curso 1 (Español)',
 		'course2': 'Curso 2 (Inglés)',
-		'course3': 'Curso 3 (Español)',
+		'course3': 'Curso 3 (Inglés)',
 		'course': 'Cursos',
-		'lecturer1': 'A cargo de Joost-Pieter Katoen',
-		'lecturer2': 'A cargo de Benjamin Kaminski',
-		'lecturer3': 'A cargo de Raúl Fervari y Carlos Areces',
+		'lecturer1': 'A cargo de Raúl Fervari y Carlos Areces',
+		'lecturer2': 'A cargo de Joost-Pieter Katoen',
+		'lecturer3': 'A cargo de Benjamin Kaminski',
 		'about': 'Sobre la RIO',
 		'aboutDesc': 'La Escuela de Informática de Verano de Río es organizada anualmente por el Departamento de Ciencias de la Computación de la Universidad Nacional de Río Cuarto. Tradicionalmente, la escuela es un evento de una semana que se lleva a cabo durante el verano argentino, en febrero. El objetivo original de la escuela fue brindar a los estudiantes de las carreras de informática de la Universidad Nacional de Río Cuarto una visión amplia y actualizada de la disciplina, así como promover el contacto y la interacción entre estudiantes, profesores e investigadores de informática. Con ese fin, la escuela fue diseñada para brindar cursos cortos e intensivos impartidos por destacados investigadores y profesores en ciencias de la computación; los eventos sociales durante la escuela brindan una excelente oportunidad para conectar a estudiantes y profesores de diferentes instituciones. Desde la primera edición de la escuela en 1994, se ha convertido en un evento tradicional para la comunidad informática de Argentina y la región. Más de 3000 estudiantes han asistido a la escuela, muchos de ellos ahora son destacados investigadores, profesores y profesionales de la informática. El éxito de ediciones anteriores de la escuela permitió establecer relaciones entre grupos de investigación locales e investigadores internacionales; mejorando así la colaboración entre instituciones informáticas argentinas e internacionales.' +
 			' La escuela de verano ha tenido como profesores a algunos de los más destacados investigadores en diferentes áreas de la informática.',
