@@ -241,8 +241,8 @@ In this course, we will investigate how to reason about such quantitative proper
     <thead>
         <tr>
             <th>&nbsp;</th>
-            <th width="20%" class="lang" key="monday">Lunes</th>
-            <th width="20%" class="lang" key="tuesday">Martes</th>
+            <th width="20%" class="lang" key="monday" colspan="2">Lunes</th>
+            <th width="20%" class="lang" key="tuesday" colspan="2">Martes</th>
             <th width="20%" class="lang" key="wednesday">Miércoles</th>
             <th width="20%" class="lang" key="thursday">Jueves</th>
             <th width="20%" class="lang" key="friday">Viernes</th>
@@ -252,12 +252,13 @@ In this course, we will investigate how to reason about such quantitative proper
     <tbody>
         <tr>
 			<th>8:00</th>
+				<td class=" no-events" rowspan="2"></td>
 				<td class="course1" rowspan="5">
 				   <div class="row-fluid lecture" style="width: 99%; height: 100%;">
 					   <span class="title">Course 1</span> <span class="lecturer"><a>Lógicas Modales Dinámicas</a></span> <span class="location"></span>
 				   </div>
 			   </td>
-
+			   <td class=" no-events" rowspan="2"></td>
 			   <td class="course1" rowspan="5">
 				   <div class="row-fluid lecture" style="width: 99%; height: 100%;">
 					   <span class="title">Course 1</span> <span class="lecturer"><a>Lógicas Modales Dinámicas</a></span> <span class="location"></span>
@@ -272,7 +273,7 @@ In this course, we will investigate how to reason about such quantitative proper
 			   </td>
 
 			   <td class="course1" rowspan="5">
-				   <div class="row-fluid lecture" style="width: 99%; height: 100%;">
+				   <div class="has-event" style="width: 99%; height: 100%;">
 					   <span class="title">Course 1</span> <span class="lecturer"><a>Lógicas Modales Dinámicas</a></span> <span class="location"></span>
 				   </div>
 			   </td>
@@ -285,6 +286,19 @@ In this course, we will investigate how to reason about such quantitative proper
         </tr>
         <tr>
             <th>09:00</th>
+            <td class="registration" rowspan="7">
+                <div class="row-fluid lecture" style="width: 99%; height: 100%;">
+                    <span class="title">Registración</span><span class="lecturer"><a></a></span> <span class="location"></span>
+                </div>
+            </td>
+									
+
+             <td class="registration" rowspan="7">
+                <div class="row-fluid lecture" style="width: 99%; height: 100%;">
+                    <span class="title">Registración</span> <span class="lecturer"><a></a></span> <span class="location"></span>
+                </div>
+            </td>
+            
         </tr>
         <tr>
             <th>09:30</th>
@@ -332,10 +346,10 @@ In this course, we will investigate how to reason about such quantitative proper
 	   	<tr>
 		   <th>13:00</th>
 
-		<td class=" no-events" rowspan="6"></td>
-		<td class=" no-events" rowspan="6"></td>
-		<td class=" no-events" rowspan="6"></td>
-		<td class=" no-events" rowspan="6"></td>
+		<td class=" no-events" rowspan="5" colspan="2"></td>
+		<td class=" no-events" rowspan="5" colspan="2"></td>
+		<td class=" no-events" rowspan="5"></td>
+		<td class=" no-events" rowspan="5"></td>
 		<td class="exams" rowspan="14">
 					<div class="row-fluid lecture" style="width: 99%; height: 100%;">
 						<span class="title">Exams</span> <span class="lecturer"><a></a></span> <span class="location"></span>
@@ -356,16 +370,24 @@ In this course, we will investigate how to reason about such quantitative proper
             <th>15:00</th>
         </tr>
         <tr>
-            <th>15:30</th>
+            <th >15:30</th>
+            <td class="registration" rowspan="1" colspan="2" >
+                <div class="row-fluid lecture" style="width: 99%; height: 100%;">
+                    <span class="title">Registración</span> <span class="lecturer"><a></a></span> <span class="location"></span>
+                </div>
+            </td>
+            <td class=" no-events" rowspan="1" colspan="2"></td>
+            <td class=" no-events" rowspan="1"></td>
+            <td class=" no-events" rowspan="1"></td>
 				</tr>
         <tr>	
             <th>16:00</th>
-				<td class="course3" rowspan="5">
+				<td class="course3" rowspan="5" colspan="2">
 			   <div class="row-fluid lecture" style="width: 99%; height: 100%;">
 				   <span class="title">Course 3</span> <span class="lecturer"><a>Quantitative Deductive Verification</a></span> <span class="location"></span>
 			   </div>
 		   </td>
-		   <td class="course3" rowspan="5">
+		   <td class="course3" rowspan="5" colspan="2">
 			   <div class="row-fluid lecture" style="width: 99%; height: 100%;">
 				   <span class="title">Course 3</span> <span class="lecturer"><a>Quantitative Deductive Verification</a></span> <span class="location"></span>
 			   </div>
@@ -400,10 +422,10 @@ In this course, we will investigate how to reason about such quantitative proper
 		<tr>
             <th>18:30</th>
 
-		<td class=" no-events" rowspan="4"></td>
-		<td class=" no-events" rowspan="4"></td>
-		<td class=" no-events" rowspan="4"></td>
-		<td class=" no-events" rowspan="4"></td>
+		<td class=" no-events" rowspan="7" colspan="2"></td>
+		<td class=" no-events" rowspan="4" colspan="2"></td>
+		<td class=" no-events" rowspan="7" ></td>
+		<td class=" no-events" rowspan="7"></td>
         </tr>
 		<tr>
             <th>19:00</th>
@@ -418,29 +440,27 @@ In this course, we will investigate how to reason about such quantitative proper
         <tr>
             <th>20:30</th>
 
-            <td class="no-events" rowspan="1"></td>
+          
 
-			<td class="reception" rowspan="1">
+			<td class="reception" rowspan="1" colspan="2">
 				<div class="row-fluid lecture" style="width: 99%; height: 100%;">
 					<span class="title">Acto de bienvenida</span> <span class="lecturer"><a> </a></span> <span class="location"></span>
 				</div>
 			</td>
-            <td class="no-events" rowspan="1"></td>
-            <td class="no-events" rowspan="1"></td>
+           
 
 
         </tr>
         <tr>
             <th>21:00</th>
-            <td class="no-events" rowspan="2"></td>
+            
 
-			<td class="reception" rowspan="2">
+			<td class="reception" rowspan="2" colspan="2">
 				<div class="row-fluid lecture" style="width: 99%; height: 100%;">
 					<span class="title">Recepción</span> <span class="lecturer"><a> </a></span> <span class="location"></span>
 				</div>
 			</td>
-            <td class=" no-events" rowspan="2"></td>
-            <td class=" no-events" rowspan="2"></td>
+           
 
 
         </tr>
