@@ -60,6 +60,8 @@ var arrLang = {
 		'scholarships8': 'In addition, the Computer Science Summer School offers accommodation scholarships. To apply for a scholarship, you must complete the following',
 		'talks': 'Invited Speakers',
 		'talk1': 'Talk 1',
+		'talk2': 'Talk 2',
+		'talk3': 'Talk 3'
 	},
 	'Español': {
 		'course1': 'Curso 1 (Español)',
@@ -122,7 +124,9 @@ var arrLang = {
 		'scholarshipsAlojamiento' : 'Becas de Alojamiento',
 		'scholarships8': 'Además la Escuela de Verano de Ciencias Informáticas ofrece becas de alojamiento. Para realizar el pedido de beca, debe completar el siguiente',
 		'talks': 'Charlas Invitadas',
-		'talk1': 'Charla 1'
+		'talk1': 'Charla 1',
+		'talk2': 'Charla 2',
+		'talk3': 'Charla 3'
 	}
 };
 // Process translation
