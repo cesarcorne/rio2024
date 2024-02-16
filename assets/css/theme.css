@@ -129,6 +129,31 @@ table.calendar > tbody > tr > td.course3 {
 	border-radius: 4px;
 }
 
+table.calendar > tbody > tr > td.talk > div {
+	background-color: #ADD8E6;
+	border-left: 1px solid white;
+}
+
+table.calendar > tbody > tr > td.talk > div:first-child {
+	border-left: 0;
+	margin-left: 1px;
+}
+
+table.calendar > tbody > tr > td.talk > div > span {
+	display: block;
+	text-align: center;
+}
+table.calendar > tbody > tr > td.talk > div > span a {
+	color: white;
+}
+
+table.calendar > tbody > tr > td.talk {
+	color: black;
+	cursor: pointer;
+	padding: 0;
+	border-radius: 4px;
+}
+
 table.calendar > tbody > tr > td.lunch > div {
 	background-color: #9d9d9d;
 	border-left: 1px solid white;
